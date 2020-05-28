@@ -1,0 +1,50 @@
+div{
+    background-color: #FF0;
+}
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: normal;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+h2{
+    font-family: Arial;
+    font-style: italic;
+    font-size: 30px;
+    
+}
+
+h3{
+    font-family: monospace;
+    font-style: oblique;
+    font-size: 14px;
+    font-variant: normal;
+}
+
+h4{
+    font-variant: small-caps;
+    font-size: 200%;
+}
+
+h4::first-letter{
+    color: #F00;
+}
+
+h4::first-line{
+    background-color: #00F;
+}
+
+p{
+    font-weight: bold;
+    font-size: 200%;
+   
+}
+
+P::after, p::before{
+    content: " exemplo ";
+}
